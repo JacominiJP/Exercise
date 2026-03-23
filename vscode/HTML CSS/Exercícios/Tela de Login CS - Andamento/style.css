@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bungee&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, .informations, input {
+    font-family: 'Bungee', sans-serif;
+}
+
+input {
+    font-size: 15px ;    
+}
+
+.informations {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right,#fbae1e , #2c3c7d );
+}
+
+.backcolor{
+    background-color: #000000;
+    
+}
+
+.login {
+    background-position:center;
+    background-size: cover; 
+    background-image:
+    linear-gradient(rgba(202, 197, 197, 0.349)),url('imagens/cslogin.jpg');
+    padding: 2vh;
+    border-radius: 12%;
+    background-repeat: no-repeat;
+    box-shadow: 7px 7px 15px rgb(0, 0, 0);
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.insidelogin {
+    margin: 7vh;
+    margin-inline: 10vh;
+    font-size: 3vh;
+    
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 6vh;
+    color: #fbae1eb7;
+    text-decoration: underline rgba(255, 255, 255, 0.658);
+    text-shadow: 2px 2px 10px black;  
+}
+
+.informations {
+    display: flex;
+    flex-direction: column;
+}
+
+.plus {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    gap: 40px;
+}
+
+.insertemail {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column; 
+}
+
+.insertpassword {
+   display: flex;
+   flex-direction: column; 
+}
+
+label {
+    font-size: 20px;
+    color: #fbae1eb7;
+    text-shadow: 2px 2px 10px black;
+}
+
+.lembre {
+    display: flex;
+    gap: 3px;
+    white-space: nowrap;
+}
+
+
+
+.hiperlink {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    white-space: nowrap;
+}
